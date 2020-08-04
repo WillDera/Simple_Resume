@@ -10,36 +10,64 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
+<br>
     <div class="container">
         <div class="row">
             <div class="col-md-3 " id="profile-wrapper">
-                <div class="card card-body">
+                <div class="card card-body h-100 border-info">
                     <img id="profile-pic" src="{% static 'images/image.png' %}">
                     <hr>
                     <h4>Hey, I'm Zedicus</h4>
                     <p>I cast spells and lick gold for a living</p>
                 </div>
             </div>
-            <div class="col-md-9 ">
-                <div class="card card-body"></div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>Life as a dev</h4>
+                    <hr>
+                    <p>{% lorem 1 %}</p>
+
+                    <ul class="social-links">
+                        <li class="social">F</li>
+                        <li class="social">T</li>
+                        <li class="social">L</li>
+                        <li class="social">G</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <br>
          <div class="row">
-            <div class="col-md-6 ">
-                <div class="card card-body"></div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Experience as a Dev</h5>
+                    <hr>
+                    <p>{% lorem 1 %}</p>
+                </div>
             </div>
-            <div class="col-md-6 ">
-                <div class="card card-body"></div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What I Know</h5>
+                    <hr>
+                    <p>{% lorem 2 %}</p>
+                </div>
             </div>
         </div>
         <br>
          <div class="row">
-            <div class="col-md-6 ">
-                <div class="card card-body"></div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>How I Learn</h5>
+                    <hr>
+                    <p>{% lorem 3 %}</p>
+                </div>
             </div>
-            <div class="col-md-6 ">
-                <div class="card card-body"></div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Short Term Goals</h5>
+                    <hr>
+                    <p>{% lorem 2 %}</p>
+                </div>
             </div>
         </div>
         <br>
